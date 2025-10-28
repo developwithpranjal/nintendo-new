@@ -351,8 +351,9 @@ button{
     text-align: center;
   }
   .content p{
-    font-size:15px ;
+    font-size:13px ;
     text-align: center;
+    width: 100%;
     
   }
   .content h2{
@@ -360,8 +361,9 @@ button{
     text-align: center;
   }
   .submit-coloum{
-    
+    flex-direction: row;
   }
+  
   input{
     padding: 7px;
     width: 200px;
@@ -397,6 +399,7 @@ button{
   
   flex-direction: column;
   align-items: center;
+  text-align: center;
   gap: 20px;
   height: auto;
 
@@ -406,6 +409,19 @@ button{
   width: 90%;
   align-items: center;
   
+}
+.scoop h3{
+  font-size: 16px;
+  
+
+}
+.scoop p{
+  font-size: 13px;
+
+}
+.scoop a{
+
+  padding: .2rem .5rem;
 }
 footer{
   flex-direction: column;
