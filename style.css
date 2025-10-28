@@ -290,29 +290,136 @@ border-radius: 10px 10px 0 0 ;
 button{
     margin-top: 20px;
 }
+@media (max-width:992px) {
+  .content{
+    width:100%;
+  }
+  .content h1{
+    font-size: 30px;
+  }
+  .game-changer-wrapper{
+    flex-direction: column;
+  }
+  .apart-wrapper{
+    flex-direction: column;
+  }
+  .apart{
+    width: 100%;
+  }
+  .title-wrapper{
+    flex-direction: column;
+  }
+  .changer{
+    width: 100%;
+  }
+  .title{
+    width: 100%;
+  }
+  .scoopsection{
+    
+    flex-wrap: wrap;
+    gap: 2rem;
+    height: auto;
+    
+  }
+  .scoop{
+    padding: 10px;
+   width: 48%;
+    
+  }
+  footer{
+    flex-direction: column;
+  }
+  .shop-best-box{
+    width: 100%;
+  }
   
-@media only screen and (max-width: 650px){
+}
+  
+@media (max-width: 480px){
+  header{
+    height: 400px;
+    background-position: center;
+    
+  }
+  .content{
+    width: 100%;
+  }
+  .content h1{
+    
+    font-size: 30px;
+    text-align: center;
+  }
+  .content p{
+    font-size:15px ;
+    text-align: center;
+    
+  }
+  .content h2{
+    font-size: 20px;
+    text-align: center;
+  }
+  .submit-coloum{
+    
+  }
+  input{
+    padding: 7px;
+    width: 200px;
+  }
+  button{
+    padding: 7px;
+    width: 200px;
+  }
+  .game-changer-wrapper,
+  .apart-wrapper,
+  .title-wrapper{
+    
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .changer,
+  .apart,
+  .title{
+    width: 90%;
+    
+    padding-bottom: 20px;
+    
+  }
+  #from-switch p{
+    width: 300px;
+  }
+  table{
+    width: 90%;
+    font-size: 14px;
+  }
 .scoopsection{
   
   flex-direction: column;
-  height: 600px;
-  gap: 50px;
-
+  align-items: center;
+  gap: 20px;
+  height: auto;
 
 }
-.scoop h3{
-  font-size: 8px;
-  width: 100%;
-}
-.scoop p{
-  font-size: 6px;
+
+.scoop{
+  width: 90%;
+  align-items: center;
   
 }
-.scoop a{
-  border-radius: 2px;
-  padding: 5px 12px;
-  font-size: 6px;
+footer{
+  flex-direction: column;
 }
+.shop-best-box:nth-of-type(2){
+  font-size: 15px;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  
 }
+
+} 
+
+
 
 
